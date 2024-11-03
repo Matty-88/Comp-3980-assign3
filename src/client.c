@@ -13,7 +13,6 @@
 #define PORT 12345
 #define SERVER_IP "127.0.0.1"
 
-
 void custom_error(const char *message) __attribute__((noreturn));
 void parse_args(int argc, char **argv, const char **filter, char **input_message);
 
